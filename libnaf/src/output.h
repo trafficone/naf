@@ -1,0 +1,13 @@
+#ifndef NAFOUTPUT_H_
+#define NAFOUTPUT_H_
+
+typedef enum { UNDECIDED, FORMAT_NAME, PART_LIST, PART_SIZES, NUMBER_OF_SEQUENCES,
+               TITLE, IDS, NAMES, LENGTHS, TOTAL_LENGTH, MASK, TOTAL_MASK_LENGTH,
+               FOUR_BIT,
+               DNA, MASKED_DNA, UNMASKED_DNA,
+               SEQ, SEQUENCES, CHARCOUNT,
+               FASTA, MASKED_FASTA, UNMASKED_FASTA,
+               FASTQ
+             } OUTPUT_TYPE;
+
+#endif //NAFOUTPUT_H_

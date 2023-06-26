@@ -7,6 +7,7 @@ export prefix = /usr/local
 
 default:
 	$(MAKE) -C zstd/lib ZSTD_LEGACY_SUPPORT=0 ZSTD_LIB_DEPRECATED=0 ZSTD_LIB_DICTBUILDER=0 libzstd.a
+	$(MAKE) -C libnaf
 	$(MAKE) -C ennaf
 	$(MAKE) -C unnaf
 
